@@ -1,3 +1,5 @@
+/* To Do: Alphabetize  sort; */
+
 ul {
     list-style-type:none;
     margin-bottom: 15px;
@@ -19,7 +21,41 @@ a:hover {
     color:black;
 }
 
-#main_content{
-	width:900px;
+#logo{
+    width:20%;
+    height:100%;
+}
+
+#header{
+	width:60%;
 	margin:auto;
 }
+
+#nav_container{
+
+}
+
+#left_content{
+    position: fixed;
+    height: 100%;
+    left:0px;
+    width:20%;
+    bottom:0px;
+    background: URL('background.png') left top / cover;
+}
+
+#middle_content{
+    margin: 100px 200px;
+    height:100%;
+}
+
+#right_content{
+    position:fixed;
+    height:100%;
+    right:0px;
+    bottom:0px;
+    width:20%;
+    background: URL('background.png') right top / cover;
+
+}
+
