@@ -1,20 +1,21 @@
 /* To Do: Alphabetize  sort; */
-
-ul {
-    list-style-type:none;
-    margin-bottom: 15px;
-    background-color: #1eb4e6;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-li {
-    display: inline-block;
+body {
+    padding:0;
+    margin:0;
 }
 
 a {
     display: inline-block;
     text-decoration:none;
-    padding:5px;
+    padding: 15px 0 15px 0;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 a:hover {
@@ -28,11 +29,23 @@ a:hover {
 
 #header{
 	width:60%;
-	margin:auto;
+	margin: auto;
 }
 
 #nav_container{
+    list-style-type:none;
+    background-color: #1eb4e6;
 
+}
+
+.nav_button{
+    display: inline-block;
+    width:24.5%;
+    text-align:center;
+}
+
+#greeting{
+    padding:20px;
 }
 
 #left_content{
@@ -45,8 +58,10 @@ a:hover {
 }
 
 #middle_content{
-    margin: 100px 200px;
+    width:60%;
     height:100%;
+    margin:auto;
+
 }
 
 #right_content{
@@ -57,5 +72,13 @@ a:hover {
     width:20%;
     background: URL('background.png') right top / cover;
 
+}
+
+#trending{
+    width:100%;
+    margin:auto;
+    min-height:500px;
+    height:100%;
+    padding:20px;
 }
 
